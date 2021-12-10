@@ -17,7 +17,7 @@ cli.set_missing_host_key_policy(paramiko.AutoAddPolicy)
 # pwd = getpass.getpass("Password: ") # 암호입력 숨김
 # cli.connect(server, port=7777, username=user, password=pwd)
 
-cli.connect("211.253.29.136", port=7777, username="root", password="qwer43@!")
+cli.connect("xxx", port=xxx, username="xxxx", password="xxxx")
 
 # stdin, stdout, stderr = cli.exec_command("c")
 # stdin, stdout, stderr = cli.exec_command("ls -al")
